@@ -3,7 +3,7 @@ const charCount = document.getElementById('resultado');
 
 textarea.addEventListener('input', function() {
         const text = textarea.value;
-        charCount.textContent = text.length + "/280 caracteres";
+        charCount.textContent = text.length;
 
         if (text.length > 280) {
             charCount.classList.remove('pass');
@@ -16,7 +16,7 @@ textarea.addEventListener('input', function() {
 
 function copiarTexto(){
     const text = textarea.value;
-    charCount.textContent = text.length + "/280 caracteres";
+    charCount.textContent = text.length;
 
     if (text.length > 280){
         alert("Seu texto deve haver menos de 280 Caracteres");
