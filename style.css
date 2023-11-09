@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    background: radial-gradient(#0C1824, #162E46);
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+/*LOGO*/
+.logo-highlight{
+    background-color: #f0f0f0;
+    color: #0C1824;
+    padding: 0 10px;
+}
+h3{
+    color: #f0f0f0;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+/*CONTENT*/
+#content{
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 0;
+    height: 60vh;
+}
+textarea{
+    resize: none;
+    height: 180px;
+    width: 50px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px solid #f0f0f0;
+    border-top: 3px solid #f0f0f0;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #f0f0f0;
+}
+textarea:focus{
+    outline: none;
+}
+#info{
+    font-size: 1.3em;
+    color: #162E46;
+}
+.info-highlight{
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 8px solid #162E46;
+}
+.texto{
+    padding-right: 20px;
+}
+.xwitter-img{
+    background-color: #f0f0f0;
+    border-radius: 0 25px 25px 0;
+    padding-left: 10px;
+    padding: 25px;
+}
+button{
+    border: none;
+    padding: 10px 0;
+}
+#resultado{
+    font-weight: 500;
+}
+.exceed{
+    color: rgb(197, 34, 61);
+}
+.pass{
+    color: rgb(34, 197, 83);
+
+}
+footer{
+    border-top: 8px solid #f0f0f0;
+    text-align: center;
+    padding: 25px 0;
+    color: #f0f0f0;
+}
+footer a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 500;
+}
+footer a:hover{
+    color: #f0f0f0;
+}
+@media (max-width: 1024px) {
+    .texto{
+        margin-bottom: 50px;
+    }
+    .xwitter-img{
+        border-radius: 25px 0 25px 0;
+        padding: 25px;
+    }
+}
+@media (max-width: 550px) {
+    h3{
+        font-size: 1.2em;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .container{
+        padding: 0 25px;
+    }
+    #content{
+        height: auto;
+        margin-top: 5vh;
+    }
+    footer{
+        margin-top: 50px;
+    }
+}
